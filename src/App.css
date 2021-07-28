@@ -6,7 +6,7 @@
 
 #quote-box {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 2fr 3fr 2fr;
     grid-template-rows: auto;
 }
 
@@ -24,6 +24,14 @@
 }
 
 #new-quote {
+    position: relative;
+    left: 85%;
+}
+
+#tweet-quote {
+}
+
+.div {
     grid-column: 2/3;
     grid-row: 3/4;
 }
