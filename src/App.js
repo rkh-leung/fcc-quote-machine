@@ -7,7 +7,9 @@ function App() {
                 <h1>Random Quote Machine</h1>
             </header>
             <section id='quote-box'>
-
+                <p id='text'>Quote goes here</p>
+                <p id='author'>Author</p>
+                <button id='new-quote'>New quote</button>
             </section>
         </div>
     );

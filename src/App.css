@@ -3,3 +3,27 @@
     align-items: center;
     justify-content: center;
 }
+
+#quote-box {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: auto;
+}
+
+#text {
+    text-align: center;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: red;
+}
+
+#author {
+    text-align: right;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#new-quote {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
