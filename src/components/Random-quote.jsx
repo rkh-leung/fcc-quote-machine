@@ -30,7 +30,7 @@ export class RandomQuote extends Component {
           <a
             id={'tweet-quote'}
             target={'_top'}
-            href={'twitter.com/intent/tweet'}
+            href={`https://twitter.com/intent/tweet?text=${this.state.content}`}
           >
             <i className='fab fa-twitter' />
           </a>
