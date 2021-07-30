@@ -1,4 +1,5 @@
 import './App.css'
+import { RandomQuote } from './components/Random-quote'
 
 function App() {
   return (
@@ -6,16 +7,7 @@ function App() {
       <header className='App-header'>
         <h1>Random Quote Machine</h1>
       </header>
-      <section id='quote-box'>
-        <p id='text'>Quote goes here</p>
-        <p id='author'>Author</p>
-        <div className='div'>
-          <a id='tweet-quote' target='_top'>
-            <i className='fab fa-twitter'></i>
-          </a>
-          <button id='new-quote'>New quote</button>
-        </div>
-      </section>
+      <RandomQuote />
     </div>
   )
 }
