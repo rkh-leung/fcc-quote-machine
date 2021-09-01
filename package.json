@@ -2,7 +2,7 @@
   "name": "random-quote-machine",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://rkh-leung.github.io/random-quote-machine",
+  "homepage": "http://rkh-leung.github.io/fcc-random-quote-machine",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
